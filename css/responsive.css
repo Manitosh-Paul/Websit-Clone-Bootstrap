@@ -1,0 +1,476 @@
+/* header and banner */
+@media screen and (max-width: 992px) {
+
+    .navbar {
+        padding-top: 0;
+    }
+
+    nav .navbar_tester {
+        display: none;
+    }
+
+    .navbar-brand {
+        width: 20%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 2.2rem 1.5rem;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.8rem;
+    }
+
+    .navbar-light .navbar-nav .butn {
+        text-align: center;
+        padding: 1.2rem 2.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    header .text_below_header {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header .pagecontainer_height {
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 566px) {
+    #banner {
+        height: 10vh;
+    }
+
+    #banner .banner_text {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .navbar-brand {
+        padding-top: 2rem;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .navbar-brand {
+        width: 40%;
+    }
+
+    header .header_text h1 {
+        text-align: center;
+    }
+
+    header .header_text h1 {
+        font-size: 3.2rem;
+    }
+
+    header .text_below_header {
+        font-size: 1.6rem;
+    }
+
+    .btn_primary {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .navbar-brand {
+        width: 60%;
+    }
+}
+
+/* header and banner ends */
+
+
+/* logos section */
+@media screen and (max-width: 992px) {
+
+    .logos_section .oneliner {
+        margin-top: 3rem;
+    }
+
+    .logos_section .logos img {
+        margin: 0.6rem 2rem;
+    }
+
+    .logos_section .logos {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 532px) {
+
+    .logos_section .logos img {
+        margin: 0.6rem 1rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .logos_section .logos {
+        justify-content: space-around;
+    }
+
+    .logos_section .logos img {
+        margin: 1.2rem 1rem;
+    }
+}
+
+/* logos section ends */
+
+/* methodologies section */
+@media screen and (max-width: 768px) {
+    .methodologies_section .row {
+        background-image: none;
+    }
+
+    .heading_with_button h2 {
+        font-size: 2.8rem;
+    }
+
+    .methodologies_section .methodologies .methodology {
+        min-width: 45%;
+        max-width: 45%;
+    }
+
+    .methodologies_section .methodologies .methodology h4 {
+        font-size: 2.1rem;
+    }
+
+    .methodologies_section .methodologies .methodology .methodology_text {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .heading_with_button h2 {
+        font-size: 2.4rem;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    .methodologies_section .methodologies .methodology {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .heading_with_button h2 {
+        font-size: 2.2rem;
+    }
+
+    .btn_secondary {
+        font-size: 1.4rem;
+    }
+
+    .heading_with_button h2 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+}
+
+/* methodologies section ends */
+
+/* features section */
+@media screen and (max-width: 992px) {
+    .feature_summary_text {
+        padding-left: 1rem;
+    }
+
+    .testimonial .testimonial_logo {
+        padding-left: 1rem;
+    }
+
+    .person {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .features_section .feature_summary {
+        padding-left: 2rem;
+    }
+
+    .feature_header {
+        font-size: 2.8rem;
+    }
+
+    .feature_text {
+        max-width: 100%;
+        font-size: 1.6rem;
+    }
+
+    .feature_summary_text .preheader {
+        padding-bottom: 1rem;
+    }
+
+    .feature_summary_text {
+        padding-left: 0;
+    }
+
+    .testimonial .testimonial_logo {
+        padding-left: 0;
+    }
+
+    .person {
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+
+
+    .feature_text {
+        font-size: 1.7rem;
+        text-align: left;
+    }
+
+    .feature_header {
+        font-size: 2.4rem;
+    }
+}
+
+/* features section ends */
+
+/* general question section */
+@media screen and (max-width: 992px) {
+    .question_div {
+        max-width: calc(50% - 20px);
+        margin-bottom: 2rem;
+    }
+
+    .question_text {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .question_div {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .question_div_link {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .genral_question {
+        padding-top: 7rem;
+    }
+}
+
+@media screen and (max-width: 287px) {
+    .genral_question {
+        padding-top: 15rem;
+    }
+}
+
+/* general question section ends */
+
+/* panel features section */
+@media screen and (max-width:1200px) {
+    .panel_container {
+        padding-left: 1rem;
+    }
+
+    .panel_price_img {
+        width: 24rem;
+        height: 23rem;
+    }
+}
+
+
+@media screen and (max-width:880px) {
+    .panel_btn_primary {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .panel_btn_secondary {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .panel_container {
+        align-items: center;
+    }
+
+    .panel_container .doubleheading {
+        text-align: center;
+    }
+
+    .panel_container .doubleheading {
+        font-size: 3.4rem;
+    }
+
+    .panel_text_summary {
+        font-size: 1.6rem;
+    }
+
+    .panel_h5 {
+        font-size: 1.9rem;
+    }
+
+    .panel_price_img {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    .panel_price {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: var(--heading);
+    }
+
+    .usd {
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #8ba6c0;
+    }
+
+    .price_1 {
+        font-size: 4rem;
+        margin-left: .5rem;
+        color: #2294ed;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .panel_butn {
+        justify-content: center;
+    }
+
+    .panel_btn_primary {
+        padding: 1rem 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    .panel_btn_secondary {
+        padding: 1rem 2.5rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .feature_list {
+        width: 100%;
+    }
+
+    .panel_butn {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .or {
+        margin: 1rem 0;
+    }
+
+    .panel_btn_primary {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .panel_btn_secondary {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .panel_feature_list_container {
+        flex-direction: column;
+    }
+}
+
+/* panel features section */
+
+/* start today section */
+
+@media screen and (max-width: 767px) {
+    .start_heading {
+        font-size: 3.4rem;
+    }
+
+    .start_text {
+
+        font-size: 1.6rem;
+
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .start_heading {
+        font-size: 2.8rem;
+    }
+}
+
+/* start today section */
+
+
+/* footer section */
+/* main footer */
+@media screen and (max-width: 767px) {}
+
+/* main footer */
+/* sub footer */
+
+@media screen and (max-width: 767px) {
+    .footer_logo {
+        margin-bottom: 4rem;
+    }
+
+    .mainfooter_links {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 3rem;
+    }
+
+    .sub_footer_imp {
+        margin-bottom: 2rem;
+    }
+
+    .social_links a img {
+        min-width: 3rem;
+        max-height: 3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .sub_footer_imp a {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* sub footer */
+
+/* credits footer */
+@media screen and (max-width: 552px) {
+    .creditsfooter {
+        font-size: 1.6rem;
+        padding-bottom: 3rem;
+    }
+}
+
+/* footer section ends */
